@@ -203,7 +203,7 @@ class _BaseGiffyDialogState extends State<BaseGiffyDialog>
             RaisedButton(
               color: widget.buttonCancelColor,
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(widget.buttonRadius)),
+                  borderRadius: BorderRadius.circular(30)),
               onPressed: widget.onCancelButtonPressed ??
                   () => Navigator.of(context).pop(),
               child: widget.buttonCancelText ??
@@ -217,7 +217,7 @@ class _BaseGiffyDialogState extends State<BaseGiffyDialog>
             RaisedButton(
               color: widget.buttonOkColor,
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(widget.buttonRadius)),
+                  borderRadius: BorderRadius.circular(30)),
               onPressed: widget.onOkButtonPressed,
               child: widget.buttonOkText ??
                   Text(
